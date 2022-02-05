@@ -22,6 +22,7 @@ root = tk.Tk()
 root.title("Weather App")
 root.geometry("600x400")
 root.resizable(width=False, height=False)
+# Optional The image should be put in a folder named 'icon' within the main weather app folder
 ico = PhotoImage(file="icon/02d@4x.png")
 root.iconphoto(True, ico)
 
